@@ -1,0 +1,23 @@
+Project: User Management Tool (in Powershell)
+
+Project Description:
+Create a PowerShell script that allows you to manage user accounts on a Windows system. The script should provide the following functionality:
+
+~~~Create a new user account:
+
+~~~Prompt the user for the necessary information (e.g., username, password, full name, etc.).
+Use the New-LocalUser cmdlet to create a new local user account.
+List all user accounts:
+
+~~~Retrieve a list of all user accounts on the system using the Get-LocalUser cmdlet. 
+Display the list of user accounts in a formatted manner.
+Disable a user account:
+
+~~~Prompt the user to enter the username of the account they want to disable.
+USe the diable-LocalUSer cmdlet to disable the specified user account.
+Enable a user account:
+
+~~~Prompt the user to enter the user name of the account they want to enable. 
+Use the Enale-LocalUser cmdlet to enable the specified user account.
+
+Delete a user account:
