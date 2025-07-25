@@ -21,3 +21,8 @@ Enable a user account:
 Use the Enale-LocalUser cmdlet to enable the specified user account.
 
 Delete a user account:
+
+~~~Prompt the user to enter the username of the account they want to delete.
+Use the Remove-LocalUser cmdlet to delete the specified local user account from the system.
+Include confirmation before deletion to avoid accidental removal.
+Handle errors gracefully if the user does not exist.
